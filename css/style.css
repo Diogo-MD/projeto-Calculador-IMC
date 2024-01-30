@@ -18,7 +18,7 @@ body {
 
 .background-image-container {
     height: 1px;
-    background-image: url('img/wpp.pngmg');
+    background-image: url('../projeto-Calculador-IMC/img/wpp.png');
     background-size: cover; /* ou 'contain', dependendo do seu design */
     background-position: center;
     background-repeat: no-repeat;
