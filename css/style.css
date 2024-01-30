@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url(/img/wpp.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    border: 0;
+}
+
+#textoCalculadora {
+    width: 1000px;
+    color: #f2f2f2;
+    margin: 35px 0px 35px 0px;
+    background: rgba(121, 104, 159, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#textoCalculadora h2,
+#textoCalculadora p {
+    text-align: center;
+    padding: 20px;
+}
+
+#calculadora,
+#interpretacao {
+    background: rgba(121, 104, 159, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0px 0px 35px 0px;
+}
+
+#calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculadora label {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding: 18px;
+}
+
+#calculadora button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#calculadora button:hover {
+    background-color: #d8d8d8;
+}
+
+#calculadora button:active{
+    background-color: #adadad;
+}
+
+#calculadora input {
+    align-self: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+.erro {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+#listas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 35px;
+    color: white;
+}
+
+#listas ul li {
+    list-style-type: none;
+    margin: 23px 0 0 0;
+       
+}
+
+#interpretacao h3 {
+    background-color: #271638;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
