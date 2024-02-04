@@ -9,7 +9,6 @@ function calcularPeso() {
     // Calcular o IMC
     let imc = peso / ((altura / 100) ** 2);
 
-
     // Define o IMC com base no valor
     if (imc < 18.5) {
         interpretacao = "Abaixo do peso";
@@ -27,19 +26,29 @@ function calcularPeso() {
         interpretacao = "Obesidade II e III";
         classificacao = "Igual ou maior que 35";
     }
-
+    
+    // Exibe o texto de erro
     let areaResultado1 = document.getElementById("areaResultado1")
     let areaResultado2 = document.getElementById("areaResultado2")
 
-    // Exibe o texto de erro
-    if (peso == "" || altura == "") {
+    if (peso == "") {
         erroPeso.style.display = 'block';
-        erroAltura.style.display = 'block';
+
     } else {
+        erroPeso.style.display = 'none';
+    }
+
+    if (altura == "") {
+        erroAltura.style.display = 'block';
+
+    } else {
+        erroAltura.style.display = 'none';
+    }
+
+    if (!(peso == "") && !(altura == "")) {
         // Exibe os valores se estiver tudo correto
         areaResultado1.innerHTML = (`${interpretacao}`)
         areaResultado2.innerHTML = (`${classificacao}`)
         resultado.style.display = 'block';
     }
 }
-
