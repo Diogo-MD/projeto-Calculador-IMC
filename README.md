@@ -8,7 +8,7 @@
 
 <hr><h3 align="center">💡 Características Principais 💡</h3>
 
-<p align="center">
+<p align="left">
   • <b>Design Limpo:</b> O layout da calculadora foi projetado para ser limpo e direto, garantindo uma experiência de usuário focada no cálculo do IMC.<br><br>
   • <b>Calculadora de IMC:</b> Realize o cálculo do Índice de Massa Corporal inserindo seu peso e altura, obtendo instantaneamente o resultado.<br><br>
   • <b>Feedback Visual:</b> O resultado do IMC é acompanhado por uma indicação visual de faixas de classificação, facilitando a interpretação dos resultados.<br><br>
